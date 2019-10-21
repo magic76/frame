@@ -1,0 +1,18 @@
+overwrite: true
+schema: 'http://gql-client.alpha.mytxlab.com/'
+generates:
+    graphql/__codegen__/schema.json:
+        plugins:
+            - 'introspection'
+    graphql/__codegen__/schema.ts:
+        documents: 'graphql/*.ts'
+        plugins:
+            - 'typescript'
+            - 'typescript-operations'
+            - 'time'
+        config:
+            enumsAsTypes: true
+    graphql/__codegen__/introspection-result.ts:
+        plugins:
+            - 'fragment-matcher'
+            - 'time'

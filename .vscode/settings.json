@@ -1,0 +1,14 @@
+{
+	"editor.tabSize": 4,
+	"files.exclude": {
+		"**/*.js": {
+			"when": "$(basename).ts"
+		},
+		"**/*?.js": {
+			"when": "$(basename).tsx"
+		}
+	},
+	"tslint.autoFixOnSave": true,
+	"files.autoSave": "off",
+	"editor.formatOnSave": true
+}

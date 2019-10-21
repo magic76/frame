@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"alwaysStrict": true,
+		"esModuleInterop": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"lib": ["dom", "es2017", "es2019"],
+		"module": "esnext",
+		"moduleResolution": "node",
+		"noEmit": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": true,
+		"noImplicitAny": true,
+		"strict": true,
+		"target": "esnext",
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["./*"]
+		},
+		"plugins": [
+			{
+				"name": "typescript-styled-plugin"
+			}
+		],
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true
+	},
+	"exclude": ["node_modules", "server/**/*", "**/__tests__/**/*"],
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}
