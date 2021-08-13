@@ -46,7 +46,7 @@
 		"lodash": "^4.17.15",
 		"modclean": "^3.0.0-beta.1",
 		"moment": "^2.24.0",
-		"next": "^9.0.0",
+		"next": "^11.1.0",
 		"next-cookies": "^1.1.2",
 		"polished": "^3.4.1",
 		"react": "^16.8.6",
