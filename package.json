@@ -45,7 +45,7 @@
 		"koa-router": "^7.4.0",
 		"lodash": "^4.17.15",
 		"modclean": "^3.0.0-beta.1",
-		"moment": "^2.24.0",
+		"moment": "^2.29.4",
 		"next": "^9.0.0",
 		"next-cookies": "^1.1.2",
 		"polished": "^3.4.1",
